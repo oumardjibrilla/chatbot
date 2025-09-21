@@ -32,7 +32,8 @@
         background-color: whitesmoke;
         box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
         padding: 22px;
-        position: sticky;
+        position: fixed;
+        top: 0px;
     }
     header h2{
         font-size: 17px;
