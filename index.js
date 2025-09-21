@@ -106,3 +106,8 @@ message_user.addEventListener("keypress", function(e) {
         bouttou_send.click();
     }
 });
+
+
+window.addEventListener("resize", () => {
+  document.querySelector(".contenaire-bot").style.height = window.innerHeight + "px";
+});
