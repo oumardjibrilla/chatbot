@@ -107,7 +107,7 @@ message_user.addEventListener("keypress", function(e) {
     }
 });
 
-
-window.addEventListener("resize", () => {
-  document.querySelector(".contenaire-bot").style.height = window.innerHeight + "px";
+window.visualViewport.addEventListener("resize", () => {
+  document.querySelector("header").style.top = window.visualViewport.offsetTop + "px";
+  document.querySelector(".chat-footer").style.bottom = (window.innerHeight - window.visualViewport.height) + "px";
 });
